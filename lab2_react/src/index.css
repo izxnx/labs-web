@@ -1,1 +1,4 @@
 @import "tailwindcss";
+
+/* Варіант dark: прив'язано до класу .dark на <body> (а не до системного налаштування) */
+@custom-variant dark (&:where(.dark, .dark *));
